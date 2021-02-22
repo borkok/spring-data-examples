@@ -1,0 +1,6 @@
+version: '2'
+services:
+  mongo-db:
+    image: mongo
+    ports:
+      - 27017-27019:27017-27019

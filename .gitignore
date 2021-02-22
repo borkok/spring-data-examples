@@ -1,0 +1,10 @@
+.idea/
+*/target/
+.mvn/
+*.iml
+*.log
+generated/
+markdown.mustache
+/.settings/
+/.project
+coverage-reports/

@@ -1,0 +1,7 @@
+CREATE TABLE person(
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    firstname NVARCHAR(40) NOT NULL,
+    lastname NVARCHAR(40) NOT NULL,
+    birthdate DATE NOT NULL,
+    CONSTRAINT personPK PRIMARY KEY (id ASC)
+);
